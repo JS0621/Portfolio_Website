@@ -16,6 +16,7 @@ function App() {
         working towards a bachelor's in computer science<br></br>
         developing the FS Map mobile App. 
         </p>
+        <br></br>
         {/* <a
           className="App-link"
           href="https://reactjs.org"
