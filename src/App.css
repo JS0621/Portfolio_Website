@@ -1,9 +1,5 @@
 .App {
   text-align: center;
-  background-color: gray;
-  height: 100%;
-  overflow: auto;
-  text-align: justify;
 }
 
 .App-logo {
@@ -18,27 +14,18 @@
 }
 
 .App-header {
-  background-color: #1D1C40;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #c6c5e6;
-}
-
-.scroll {
-  background-color: gray;
-  height: 150px;
-  overflow: auto;
-  margin: 20px;
-  text-align: justify;
-  padding: 20px;
+  color: white;
 }
 
 .App-link {
-  color: #F26444;
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
