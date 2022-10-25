@@ -46,9 +46,8 @@ function App() {
         </div>
         <div className="Experience" id="experience">
         <h2>Experience</h2>
-        <Tabs
-    selectedTabClassName='is-selected'
-    selectedTabPanelClassName='is-selected'>
+        <br></br>
+        <Tabs classname="Tabs">
     <TabList>
       <Tab>Tab 1</Tab>
       <Tab>Tab 2</Tab>

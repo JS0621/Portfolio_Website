@@ -79,6 +79,7 @@
   vertical-align: top;
 }
 
+
 .Contact {
   background-color: #1D1C40;
     width: 100%;
@@ -90,6 +91,74 @@
   font-size: calc(10px + 2vmin);
   color: #c6c5e6;
   vertical-align: top;
+}
+
+.Tabs {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  background: #053742;
+  margin: 5rem;
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+}
+ 
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+ 
+.react-tabs__tab-list {
+  width: 100%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #AB05F2;
+  border-radius: 2rem;
+  padding-left: 0px;
+}
+ 
+.react-tabs__tab {
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+ 
+.react-tabs__tab--selected {
+  background: #6805F2;
+}
+ 
+.react-tabs__tab--disabled {
+  color: Gray;
+  cursor: default;
+}
+ 
+.react-tabs__tab:hover {
+  background: rgba(50, 224, 196, 0.15);
+}
+ 
+.react-tabs__tab:first-child {
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+ 
+.react-tabs__tab:last-child {
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+ 
+.react-tabs__tab-panel {
+  display: none;
+}
+ 
+.react-tabs__tab-panel--selected {
+  display: block;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .App-header {
