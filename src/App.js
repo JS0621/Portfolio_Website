@@ -46,16 +46,25 @@ function App() {
         </div>
         <div className="Experience" id="experience">
         <h2>Experience</h2>
-        <br></br>
         <Tabs classname="Tabs">
     <TabList>
-      <Tab>Tab 1</Tab>
-      <Tab>Tab 2</Tab>
-      <Tab>Tab 3</Tab>
+      <Tab>Full Sail University</Tab>
+      <Tab>Kids Cancer Foundation</Tab>
     </TabList>
-    <TabPanel>Panel 1</TabPanel>
-    <TabPanel>Panel 2</TabPanel>
-    <TabPanel>Panel 3</TabPanel>
+    <TabPanel>Student @ <a href="https://www.fullsail.edu/" target="_blank">Full Sail University</a><br>
+    </br>August 2021 - Present<br></br>
+    I've been learning many coding langues<br></br>
+     and practicing them. These languages
+    range from high level languages<br></br> like C# to low level language such as MIPS
+    Assembly.<br></br>
+    I've also began officially making projects throughout my time at Full Sail.</TabPanel>
+    <TabPanel>Volunteer Technical Coordinator @ <a href="https://www.kidscancersf.org/" target="_blank">Kids Cancer Foundation</a><br>
+    </br>June 2017 - July 2021<br></br>
+I would volunteer at KCF as their technical coordinator.<br></br> Whenever it was needed, 
+I would provide technical support on<br></br> any issues they were having.
+This would range from<br></br> tasks like creating online albums to 
+setting up<br></br> consoles for Kid's Night Out.
+ I would also tutor <br></br> families on using computers and online safety.</TabPanel>
   </Tabs>
 
         </div>

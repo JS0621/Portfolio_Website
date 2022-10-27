@@ -55,7 +55,7 @@
 
 .Experience {
   background-color: #1D1C40;
-    width: 100%;
+  width: 100%;
   min-height: 100%;
   height: 2000px;
   display: flex;
@@ -92,13 +92,13 @@
   color: #c6c5e6;
   vertical-align: top;
 }
-
+/*Tabs Design */
 .Tabs {
   width: 100%;
   height: auto;
   min-height: 400px;
   background: #053742;
-  margin: 5rem;
+  margin: 3.5rem auto 1.5rem;
   padding: 2rem 1rem;
   color: #E8F0F2;
   border-radius: 2rem;
@@ -109,13 +109,13 @@
 }
  
 .react-tabs__tab-list {
-  width: 100%;
-  margin: 0 auto 2rem;
+  width: 80%;
+  margin: 2rem auto 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: 1px solid #AB05F2;
-  border-radius: 2rem;
+  border-radius: 4rem;
   padding-left: 0px;
 }
  
@@ -138,12 +138,12 @@
 }
  
 .react-tabs__tab:hover {
-  background: rgba(50, 224, 196, 0.15);
+  background: rgba(171, 5, 242, 0.15);
 }
  
 .react-tabs__tab:first-child {
-  border-bottom-left-radius: 2rem;
-  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
 }
  
 .react-tabs__tab:last-child {
@@ -182,11 +182,14 @@
   padding: 20px;
 } */
 
-
-
-.App-link {
+/* Link Color */
+a:any-link {
   color: #F26444;
 }
+a:hover {
+  color: #F26444;
+}
+
 
 /* @keyframes App-logo-spin {
   from {
