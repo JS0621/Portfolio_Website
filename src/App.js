@@ -25,11 +25,11 @@ function App() {
           <Nav.Link href="#contact">4. Contact Me</Nav.Link>
         </Nav>
       </Navbar>
-      <header className="App-header">
         <div className="Intro" id="intro">
+        <br></br>
         <h3>Hello, I am</h3>
         <br></br>
-        <h1 color='#6805F2'>Sebastian Jazmin</h1>
+        <h1 className='name'>Sebastian Jazmin</h1>
         <p>
         I'm a software engineer willing to take on any challenge. <br></br>
         My main goal is to learn and improve my skill with <br></br>
@@ -38,11 +38,29 @@ function App() {
         developing the FS Map mobile App. 
         </p>
         </div>
-        </header>
 
         <body>
         <div className="About" id="about">
           <h2>About Me</h2>
+          <p>Hiya! I'm Sebastian Jazmin and my passion has always<br></br>
+been learning. My interest in computer science came<br></br>
+from curiosity. I had been using computers to learn<br></br>
+more, when I began questioning how computers <br></br>
+worked. So I researched it.<br></br>
+<br></br>
+Now I'm in university pursuing a bachelor's in <br></br>
+computer science. I spent my time in high school<br></br>
+working on certifications like Microsoft Office <br></br>
+Specialist and Internet Business Associate. <br></br>
+Thoughout University, I have been delving deeper<br></br>
+into computers<br></br>
+
+I've been learning the following technologies:<br></br>
+Python,  Reactjs<br></br>
+C#,  Javascript<br></br>
+C++, SQL<br></br>
+Java,  MIPS Assembly</p>
+
         </div>
         <div className="Experience" id="experience">
         <h2>Experience</h2>
@@ -70,19 +88,39 @@ setting up<br></br> consoles for Kid's Night Out.
         </div>
         <div className="Projects" id="projects">
           <h2>Projects</h2>
+          <Tabs classname="Tabs">
+    <TabList>
+      <Tab>Website</Tab>
+      <Tab>FS Map</Tab>
+      <Tab>Game of Life</Tab>
+    </TabList>
+    <TabPanel>
+      I created this website for two reasons.
+      The first was<br></br> to learn Reactjs, a popular library for creating websites.<br></br>
+      The second reason was to have a place<br></br> to refer people to when they want to know about<br></br> my work. It was my first time making <br></br>
+      a website. I like how this came out and it was a great learning experience.
+    </TabPanel>
+    <TabPanel>
+    I developed FS Map with the help of two others in a group called Swift Kings.<br></br>
+    We wanted to make an interactive map for our university campus. <br></br>
+    We are happy with the outcome and it was great to learn how to work with <br></br>
+    Andoid Studio, Google Maps API, Firebase, and Java.
+    </TabPanel>
+    <TabPanel>
+      Conway's Game of Life was my first time using a graphical user interface with C#.<br></br>
+      Game of Life is a cellular automaton that follows rules to spread across <br></br>
+      defined universe. It was great to learn how to deal with interaction from the user, <br></br>
+      most of my work until this point was just console. I learned a lot and it was a fun project.
+    </TabPanel>
+  </Tabs>
         </div>
         <div className="Contact" id="contact">
           <h2>Contact Me</h2>
+          <p>While I am currently focusing on studies, my email is always open.<br></br>
+          Just reach out and I'll try my best to respond quickly.</p>
+          {/* Create Button for email */}
         </div>
         </body>
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
     </div>
   );
 }
