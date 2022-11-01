@@ -11,6 +11,7 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 function App() {
   return (
     <div className="App">
+      {/* Nav Bar */}
       <Navbar bg="back" variant ="dark" fixed="top">
         <Navbar.Brand>
           <img src={logo} width="40px" height="40px"/> 
@@ -25,6 +26,7 @@ function App() {
           <Nav.Link href="#contact">4. Contact Me</Nav.Link>
         </Nav>
       </Navbar>
+
         <div className="Intro" id="intro">
         <br></br>
         <h3>Hello, I am</h3>
@@ -35,7 +37,7 @@ function App() {
         My main goal is to learn and improve my skill with <br></br>
         software development. Currently I am a student<br></br>
         working towards a bachelor's in computer science<br></br>
-        developing the FS Map mobile App. 
+        and also developing the FS Map mobile App. 
         </p>
         </div>
 
@@ -118,7 +120,9 @@ setting up<br></br> consoles for Kid's Night Out.
           <h2>Contact Me</h2>
           <p>While I am currently focusing on studies, my email is always open.<br></br>
           Just reach out and I'll try my best to respond quickly.</p>
+          <br></br>
           {/* Create Button for email */}
+          <a href="mailto:sebastian.jazmin.nw@gmail.com" class="mailto">Send me an email</a> 
         </div>
         </body>
     </div>
