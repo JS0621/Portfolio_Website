@@ -96,7 +96,7 @@
   vertical-align: top;
 }
 
-.mailto{
+.txtbtn{
   background-color: #1D1C40;
   border:#6805F2;
   border-width: 5px;
@@ -105,7 +105,7 @@
   padding: 15px 25px;
   text-decoration: none;
 }
-.mailto:hover{
+.txtbtn:hover{
   color: #F26444;
 }
 /*Tabs Design */
@@ -194,6 +194,7 @@
 /* Link Color */
 a:any-link {
   color: #F26444;
+  text-decoration: none;
 }
 a:hover {
   color: #F26444;
