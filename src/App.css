@@ -17,9 +17,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 } */
-.bg-back{
+/* NavBar */
+.bg-nav{
   background-color: #1D1C40;
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+  margin-left: 1%;
 }
+
 .body {
   background-color: #1D1C40;
   width:100%;
@@ -38,6 +43,7 @@
   font-size: calc(6px + 2vmin);
   color: #c6c5e6;
   margin-top: 100px;
+  padding-top: 70px;
 }
 .name{
   color:#6805F2;
@@ -54,6 +60,7 @@
   font-size: calc(6px + 2vmin);
   color: #c6c5e6;
   vertical-align: top;
+  padding-top: 70px;
 }
 
 .Experience {
@@ -67,6 +74,7 @@
   font-size: calc(6px + 2vmin);
   color: #c6c5e6;
   vertical-align: top;
+  padding-top: 70px;
 }
 
 .Projects {
@@ -80,6 +88,7 @@
   font-size: calc(6px + 2vmin);
   color: #c6c5e6;
   vertical-align: top;
+  padding-top: 70px;
 }
 
 
@@ -94,6 +103,7 @@
   font-size: calc(6px + 2vmin);
   color: #c6c5e6;
   vertical-align: top;
+  padding-top: 70px;
 }
 
 .mailto{

@@ -12,9 +12,8 @@ function App() {
   return (
     <div className="App">
       {/* Nav Bar */}
-      <Navbar bg="back" variant ="dark" fixed="top">
+      <Navbar bg="nav" variant ="dark" fixed="top" class="nav">
         <Navbar.Brand>
-          <img src={logo} width="40px" height="40px"/> 
           {/* Placeholder logo */}
            Logo
         </Navbar.Brand>
