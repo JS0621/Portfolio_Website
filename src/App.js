@@ -123,6 +123,9 @@ setting up<br></br> consoles for Kid's Night Out.
           <br></br>
           {/* Create Button for email */}
           <a href="mailto:sebastian.jazmin.nw@gmail.com" class="mailto">Send me an email</a> 
+          <p>Or follow me on</p>
+          <a href="https://www.linkedin.com/in/sebastian-jazmin/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/JS0621" target="_blank">Github</a> 
         </div>
         </body>
     </div>
