@@ -96,6 +96,7 @@ setting up<br></br> consoles for Kid's Night Out.
       <Tab>Game of Life</Tab>
     </TabList>
     <TabPanel>
+      <a href="https://github.com/JS0621/Portfolio_Website" target="_blank">Website</a><br></br>
       I created this website for two reasons.
       The first was<br></br> to learn Reactjs, a popular library for creating websites.<br></br>
       The second reason was to have a place<br></br> to refer people to when they want to know about<br></br> my work. It was my first time making <br></br>
@@ -108,6 +109,7 @@ setting up<br></br> consoles for Kid's Night Out.
     Andoid Studio, Google Maps API, Firebase, and Java.
     </TabPanel>
     <TabPanel>
+      <a href="https://github.com/JS0621/Game-Of-Life" target="_blank">Game of Life</a><br></br>
       Conway's Game of Life was my first time using a graphical user interface with C#.<br></br>
       Game of Life is a cellular automaton that follows rules to spread across <br></br>
       defined universe. It was great to learn how to deal with interaction from the user, <br></br>
