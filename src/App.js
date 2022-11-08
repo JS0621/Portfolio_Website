@@ -80,8 +80,8 @@ Java,  MIPS Assembly</p>
     <TabPanel>Volunteer Technical Coordinator @ <a href="https://www.kidscancersf.org/" target="_blank">Kids Cancer Foundation</a><br>
     </br>June 2017 - July 2021<br></br>
 I would volunteer at KCF as their technical coordinator.<br></br> Whenever it was needed, 
-I would provide technical support on<br></br> any issues they were having.
-This would range from<br></br> tasks like creating online albums to 
+I would provide technical support on any issues they were having.<br></br>
+This would range from tasks like creating online albums to 
 setting up<br></br> consoles for Kid's Night Out.
  I would also tutor <br></br> families on using computers and online safety.</TabPanel>
   </Tabs>
