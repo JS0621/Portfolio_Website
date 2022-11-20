@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import fsmap from './fsmap.png';
+import gol from './gol.png';
 import './App.css';
 //Nav Bar Requirements
 import 'bootstrap/dist/css/bootstrap.css'
@@ -107,13 +108,17 @@ setting up<br></br> consoles for Kid's Night Out.
     We wanted to make an interactive map for our university campus. <br></br>
     We are happy with the outcome and it was great to learn how to work with <br></br>
     Andoid Studio, Google Maps API, Firebase, and Java.
+    <br></br>
+    <img src={fsmap} alt="FS Map App" style={{width: 220, height: 400}}/>
     </TabPanel>
     <TabPanel>
       <a href="https://github.com/JS0621/Game-Of-Life" target="_blank">Game of Life</a><br></br>
       Conway's Game of Life was my first time using a graphical user interface with C#.<br></br>
       Game of Life is a cellular automaton that follows rules to spread across <br></br>
       defined universe. It was great to learn how to deal with interaction from the user, <br></br>
-      most of my work until this point was just console. I learned a lot and it was a fun project.
+      most of my work until this point was just console. I learned a lot and it was a fun project.<br></br>
+      <img src={gol} alt="Game of Life" style={{width: 350, height: 350}}/>
+
     </TabPanel>
   </Tabs>
         </div>

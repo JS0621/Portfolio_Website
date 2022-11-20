@@ -36,7 +36,7 @@
   background-color: #1D1C40;
   width: 100%;
   min-height: 100%;
-  height: 1000px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +67,7 @@
   background-color: #1D1C40;
   width: 100%;
   min-height: 100%;
-  height: 1000px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,7 +81,7 @@
   background-color: #1D1C40;
     width: 100%;
   min-height: 100%;
-  height: 1000px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,7 +96,7 @@
   background-color: #1D1C40;
     width: 100%;
   min-height: 100%;
-  height: 1000px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,6 +210,9 @@ a:hover {
   color: #F26444;
 }
 
+.fsmapimage{
+  size: 2vmin;
+}
 
 /* @keyframes App-logo-spin {
   from {
